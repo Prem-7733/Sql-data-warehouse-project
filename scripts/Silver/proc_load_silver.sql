@@ -276,3 +276,6 @@ SELECT * FROM silver.erp_PX_CAT_G1V2;
 END //
 
 DELIMITER ;
+
+
+CALL silver.process_silver();
